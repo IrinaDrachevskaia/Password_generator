@@ -98,10 +98,10 @@ entry_website = Entry(width=21)
 entry_website.grid(column=1, row=1, sticky=W)
 entry_website.insert(END, string="")
 
-
+#change "YOUR_EMAIL"
 entry_email = Entry(width=51)
 entry_email.grid(column=1, row=2, columnspan=2)
-entry_email.insert(0, "irina.drachevskaia.tr@gmail.com")
+entry_email.insert(0, "YOUR_EMAIL")
 
 entry_password = Entry(width=21)
 entry_password.grid(column=1, row=3, sticky=W)
